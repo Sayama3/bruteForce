@@ -12,3 +12,10 @@ def motAleatoire(caractere):
         choix = random.randrange(0,94,1)
         motDePasse += caractere[choix]
     return motDePasse
+
+def strToList(liste):
+    string = str()
+    for i in liste:
+        string += i
+    return string
+
